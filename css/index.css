@@ -1,0 +1,267 @@
+body{
+	margin:0;
+	font-family: "微软雅黑";
+	min-width: 980px;
+}
+
+h1,h2,h3,h4,h5,h6,ul,p,li{
+	margin:0;
+	padding: 0;
+	/*使用ul和li的时候去掉小圆点.*/
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*居中的布局*/
+.container{
+	width:980px;
+	margin:0 auto;
+    /*border: 2px solid black;*/
+}
+
+
+             /*头部*/
+.header{
+	padding: 15px 0;
+	/*border:1px solid #f02912;*/
+	border:#f5f5f5;
+}
+.header-c{
+	height:28px;
+	line-height: 28px;
+}
+.logo{
+	float:left;
+	font-size: 30px;
+	font-weight: bold;
+	margin-right:10px;
+}
+.search{
+	float: left;
+	border:1px solid #ccc;
+	background: #fff;
+	padding-left: 15px;
+	font-size: 13px;
+	color: #ccc;
+	border-radius:5px;
+	width: 360px;
+	margin-right:15px;
+}
+.fuctionlist{
+	float: left;
+}
+.fuctionlist li{
+	float: left;
+	padding:0 5px;
+	font-weight: bold;
+}
+/*群组选择器*/
+.signin{
+	padding: 6px 12px;
+	float: right;
+	color: black;
+	font-size: 13px;
+	border: 1px solid #d5d5d5;
+	border-radius: 5px;
+	background:#eee;
+    margin-top:-5px;
+    margin-left: 10px;
+}
+.signup{
+	padding: 6px 12px;
+	float: right;
+	color: #eee;
+	font-size: 13px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-image: linear-gradient(#8add6d,#60b044);
+	margin-top:-5px;
+}
+
+
+             /*第一行*/
+.section{
+	padding: 80px 0;
+	border-bottom: 1px solid #ccc;
+}
+.main{
+	background: #202020;
+	height:400px;
+}
+
+/*TODO:待优化(浮动的收缩问题)*/
+.main-c{
+	height: 351px;
+}
+.main-intro{
+	color: white;
+	width:620px;
+	/*border:1px solid red;*/
+	float: left;
+}
+.main-intro p{
+	font-size: 21px;
+	line-height: 1.5em;
+}
+
+.big-title{
+	font-size: 70px;
+	padding-top:10px;
+	margin-bottom:15px;
+	font-weight:normal;
+}
+.signup-form{
+	width:320px;
+	height: 351px;
+	/*border: 1px solid white;*/
+	float: right;
+}
+.team{
+	height:44px;
+	background: #fafafa;
+	margin:10px 0;
+	border-radius:5px;
+	
+	/*line-height: 44px;*/
+}
+.team p{
+	font-size: 16px;
+	color: #ccc;
+	padding:10px;
+}
+.xiao {
+	font-size: 13px;
+	color: #767676;
+}
+.btn{
+	color: #f5f5f5;
+	text-align: center;
+	padding: 12px 20px;
+	font-size: 18px;
+	border-radius:6px;
+	/*border:1px solid white;*/
+}
+.btn-up{
+	height: 25px;
+	font-size: 16px;
+	margin:10px 0;
+	background-image:linear-gradient(#8add6d, #60b044);
+}
+
+
+               /*第二行*/
+
+.enterprise{
+	height:225px;
+	background-image:linear-gradient(#202d5f,#614381);
+	text-align: center;
+}
+
+/*后代选择器*/
+.enterprise h2{
+    color:#f5f5f5;
+}
+.sub-title{
+	font-size:42px;
+	text-align:center;
+	font-weight:normal;            /*//字体粗细正常*/
+	margin-top: 8px;
+}
+/*TODO:待优化*/
+.btn-blue{
+	width: 346px;
+	margin:12px auto;
+	background-image:linear-gradient(#2da9f1,#1a5eb2);
+	display:inline-block;
+}
+.gh-image{
+	width:100%;
+	margin-top:40px;
+}
+
+
+            /*第三行*/
+
+.love{
+	height: 870px;
+}
+.sub-info{
+	font-size: 18px;
+	color: #767676;
+	text-align: center;
+	margin-top: 10px;
+}
+.love-reason{
+	width: 488px;
+	height: 400px;
+	/*border: 1px solid black;*/
+	float: left;
+	text-align: center;
+	margin-top: 10px;
+}
+.love-reason img{
+	padding:30px;
+}
+.love-reason h3{
+	padding:15px;
+}
+.love-reason p{
+     padding:15px;
+}
+
+
+             /*第四行*/
+
+.btn-green{
+	width: 287px;
+	margin:12px auto;
+	background-image:linear-gradient(#8add6d, #60b044);
+}
+.gai{
+	font-size: 22px;
+	padding:40px;
+	text-align: center;
+}
+
+
+             /*底部*/
+
+
+
+.last{
+	padding:45px 0;
+	/*border: 1px solid blue;*/
+}
+
+.last-c{
+	height: 28px;
+	/*border: 1px solid red;*/
+	line-height:28px;
+}
+.zi{
+	width:436px;
+	height: 27px;
+	/*border:1px solid black;*/
+	float: left;
+	text-align: center;
+}
+.s{
+	width:100px;
+	height: 27px;
+	/*border:1px solid black;*/
+	float: left;
+	text-align: center;
+}
+.zi li{
+	float: left;
+	font-size: 11px;
+	padding:0 6px;
+	line-height: 27px;
+	text-align: center;
+}
+.you{
+	padding:0 8px;
+	float: right;
